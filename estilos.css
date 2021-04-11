@@ -191,7 +191,7 @@ nav .enlaces a:hover{
   animation: moverIzquierda 2s ease-in;
   animation-name: rotar;
   animation-duration: 12s;
-  animation-iteration-count: infinite;
+  animation-iteration-count: initial;
   cursor: pointer;
   
   
