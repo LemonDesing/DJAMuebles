@@ -124,8 +124,8 @@ header{
   width: 100%;
   height:625px;
   background: linear-gradient(to bottom,
-  rgba(154, 211, 20, 0.6),
-  rgba(29,241,171, .6),
+  rgba(136, 145, 117, 0.6),
+  rgba(154, 187, 176, 0.6),
   rgba(133, 138, 139, 0.45)
   ), url(img/principal.jpg );
   background-attachment: fixed;
@@ -188,7 +188,7 @@ nav .enlaces a:hover{
   height:60px;
   border-radius: 50px ;
   margin-left: 20px;
-  animation: moverIzquierda 2s ease-in;
+  animation: moverIzquierda 3s ease-in;
   animation-name: rotar;
   animation-duration: 12s;
   animation-iteration-count: initial;
@@ -211,7 +211,7 @@ nav .enlaces a:hover{
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  color:rgba(24, 23, 23, 0.795);
+  color:rgba(12, 11, 11, 0.904);
   overflow: hidden;
   text-align: center;
 }
@@ -222,8 +222,8 @@ nav .enlaces a:hover{
 }
 
 .textos>h2{
-  font-size: 30px; 
-  font-weight: 300;
+  font-size: 40px; 
+  font-weight: 500;
   animation: moverIzquierda 2s ease-in;
 }
 
@@ -247,9 +247,10 @@ nav .enlaces a:hover{
 
 .contenedor p{
   font-size: 20px;
-  font-weight: 300;
+  font-weight: 400;
   color: var(--color1);
 }
+
 
 .after::after{
   content:'';
@@ -353,7 +354,7 @@ nav .enlaces a:hover{
 
 .cont-work{
   width: 31%;
-  box-shadow: 0 5px 15px 0 rgba(37, 145, 16, 0.726);
+  box-shadow: 0 5px 15px 0 rgba(59, 68, 57, 0.726);
   height:300px;
   overflow: hidden;
   margin-bottom: var(--espacios-contenido);
@@ -415,8 +416,8 @@ footer{background:url(img/pexels-fwstudio-172277.jpg);}
 }
 
 .fab{
-  font-size: 57px;
-  color: rgba(14, 15, 15, 0.815);
+  font-size: 55px;
+  color: rgba(18, 19, 19, 0.945);
   margin-bottom: var(--espacios);
   display: inline-block;
 }
